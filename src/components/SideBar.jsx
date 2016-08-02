@@ -4,7 +4,9 @@ export default class SideBar extends React.Component{
     
     render() {
         return(
-            <div>
+            <div
+		className='side-bar'
+		>
                 INSERT IMAGE HERE
             </div>
         )
