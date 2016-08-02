@@ -1,6 +1,8 @@
 import React from 'react';
 import SideBar from './components/SideBar.jsx';
 
+var css = require('./stylesheets/main.scss');
+
 class App extends React.Component {
     render() {
         return (
