@@ -6,7 +6,7 @@ require('./stylesheets/main.scss');
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className="app">
                 <SideBar />
                 Hello World!
             </div>
