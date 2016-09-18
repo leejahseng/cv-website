@@ -9,8 +9,10 @@ export default class NavButton extends React.Component{
 
     render() {
         return(
-            <div className='nav-button'>
-                <a href={this.state.href}>{this.state.name}</a>
+            <div className='nav-button' >
+                <a href={this.state.href} >
+                    {this.state.name}
+                </a>
             </div>
         )
     }

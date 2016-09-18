@@ -1,0 +1,20 @@
+.nav-button{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  border-color: $primary-green;
+
+  a{
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    background-color: $primary-green;
+  }
+}
