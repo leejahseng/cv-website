@@ -12,9 +12,18 @@
     padding-bottom: 20px;
     color: white;
     text-decoration: none;
+
+    p{
+      display: inline;
+      padding-right: 15px;
+    }
   }
 }
 
 .nav-button:hover{
   background-color: $primary-green;
+}
+
+.icon{
+  float: right;
 }
