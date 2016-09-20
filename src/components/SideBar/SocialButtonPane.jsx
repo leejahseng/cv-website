@@ -11,8 +11,8 @@ export default class SocialButtonPane extends React.Component{
     render() {
         return(
             <div className="social-button-pane">
-                <SocialButton icon={Linkedin}/>
-                <SocialButton icon={Github}/>
+                <SocialButton icon={Linkedin} href="https://nz.linkedin.com/in/jah-seng-lee-58289ab4"/>
+                <SocialButton icon={Github} href="https://github.com/leejahseng"/>
             </div>
         )
     }

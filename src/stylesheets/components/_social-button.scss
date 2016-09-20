@@ -8,4 +8,10 @@
   height: 50%;
   text-align: center;
   padding-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.icon-social-button:hover{
+  color: $primary-green;
 }
